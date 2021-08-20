@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Compiler</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<!--HEADER-->
+<div class="topnav007" id="myTopnav007">
+<a href="#" class="nav_list007 active007" style="color:#000;">Home</a>
+<a href="#" class="nav_list007">Blog</a>
+<a href="#contact" class="nav_list007">Contact</a>
+<a href="#about" class="nav_list007">About</a>
+<a href="javascript:void(0);" style="font-size:15px;" class="nav_list007 icon007" onclick="mynav007()">&#9776;</a>
+</div>
+
+<!--CONTAINER-->
+<div class="container007">
+<form>
+<div class="console007">
+<textarea id="html" class="edit007" spellcheck=false></textarea>
+<div class=dots-container>
+HTML
+<span class="down007"><i class="fa fa-download" title="Download" onclick="download('html')"></i></span>
+</div>
+</div>
+<div class="console007">
+<textarea id="css" class="edit007" spellcheck=false></textarea>
+<div class=dots-container>
+CSS
+<span class="down007"><i class="fa fa-download" title="Download" onclick="download('css')"></i></span>
+</div>
+</div>
+<div class="console007">
+<textarea id="js" class="edit007" spellcheck=false></textarea>
+<div class=dots-container>
+JS
+<span class="down007"><i class="fa fa-download" title="Download" onclick="download('js')"></i></span>
+</div>
+</div>
+</form>
+</div>
+<div class="output">
+<h1 id="title_header234">OUTPUT</h1>
+<span class="right_contents">
+<i class="fa fa-mobile" onclick="screen('mobile')"></i>
+<i class="fa fa-desktop" onclick="screen('desktop')"></i>
+</span>
+<iframe scrolling="yes" target="_top" id="screen"></iframe>
+</div>
+
+
+
+
+
+<!--FOOTER-->
+<footer>
+<div class="footer007">
+<div class="row007">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row007">
+<ul>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+
+<div class="row007">
+Copyright © 2021 Name_here - All rights reserved 
+</div>
+</div>
+</footer>
+
+
+<!--JAVASCRIPT-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
